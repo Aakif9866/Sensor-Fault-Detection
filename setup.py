@@ -1,11 +1,19 @@
 from setuptools import find_packages,setup
 from typing import List
 
+HYPEN_E_DOT="-e."
+
 def get_requirememts(file_path:str)->List[str]:
     requirements=[]
     with open(file_path) as file_obj:
         requirements = file_obj.readlines() # just 1 time gets all names
         requirements = [req.replace("\n","") for req in requirements] # nl is replaced by nothingness
+    
+    # to remove -e.
+    if(HYPEN_E_DOT in requirements):
+        requirements.remove(HYPEN_E_DOT)
+        # as this is a command we dont need it in requirements
+    
     return requirements
     
     
