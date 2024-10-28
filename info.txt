@@ -1,0 +1,8 @@
+we will make end to end
+industry oriented projects now
+
+basic softwares used
+
+anaconda distribution to create environments
+git cli to build github
+vs code to build our project 

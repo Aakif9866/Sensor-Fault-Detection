@@ -1,0 +1,11 @@
+prefix=/Users/shaikyasin/Documents/AIDS/Projects/ML projects/1 sensor fault detection/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/shaikyasin/Documents/AIDS/Projects/ML projects/1 sensor fault detection/venv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.2
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}
