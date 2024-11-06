@@ -16,8 +16,6 @@ def get_requirememts(file_path:str)->List[str]:
     
     return requirements
     
-    
-
 setup(
     name='Fault Detection',
     version='0.0.1',
