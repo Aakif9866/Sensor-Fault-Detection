@@ -4,6 +4,7 @@ import os
 
 MONGO_DATABASE_NAME = "SensorFaultDetection2"
 MONGO_COLLECTION_NAME = "waferFault2"
+TARGET_COLUMN='quality'
 
 MODEL_FILE_NAME = "model"
 
