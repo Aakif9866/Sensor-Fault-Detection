@@ -1,0 +1,11 @@
+[2025-06-16 14:05:41,988] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[2025-06-16 14:05:42,951] 97 werkzeug - WARNING -  * Debugger is active!
+[2025-06-16 14:05:42,958] 97 werkzeug - INFO -  * Debugger PIN: 963-022-397
+[2025-06-16 14:05:50,444] 97 werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 14:05:50] "GET / HTTP/1.1" 200 -
+[2025-06-16 14:05:52,770] 73 root - INFO - Entered initiate_data_ingestion method of DataIngestion class
+[2025-06-16 14:05:52,770] 47 root - INFO - exporting data from mongodb
+[2025-06-16 14:06:23,142] 97 werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 14:06:23] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+[2025-06-16 14:06:23,175] 97 werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 14:06:23] "[36mGET /train?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-06-16 14:06:23,176] 97 werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 14:06:23] "[36mGET /train?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-06-16 14:06:23,203] 97 werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 14:06:23] "[36mGET /train?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-06-16 14:06:23,219] 97 werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 14:06:23] "[36mGET /train?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -

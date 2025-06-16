@@ -1,0 +1,6 @@
+[2025-02-05 22:37:34,054] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[2025-02-05 22:37:35,017] 97 werkzeug - WARNING -  * Debugger is active!
+[2025-02-05 22:37:35,023] 97 werkzeug - INFO -  * Debugger PIN: 479-648-325
+[2025-02-05 22:44:36,545] 97 werkzeug - INFO -  * Detected change in '/Users/shaikyasin/Documents/AIDS/Projects/ML projects/1 sensor fault detection/src/components/model_trainer.py', reloading
+[2025-02-05 22:44:36,553] 97 werkzeug - INFO -  * Detected change in '/Users/shaikyasin/Documents/AIDS/Projects/ML projects/1 sensor fault detection/src/components/model_trainer.py', reloading
+[2025-02-05 22:44:36,757] 97 werkzeug - INFO -  * Detected change in '/Users/shaikyasin/Documents/AIDS/Projects/ML projects/1 sensor fault detection/src/components/model_trainer.py', reloading

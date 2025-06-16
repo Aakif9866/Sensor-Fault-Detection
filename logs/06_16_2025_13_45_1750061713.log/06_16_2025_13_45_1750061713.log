@@ -1,0 +1,43 @@
+[2025-06-16 13:45:14,058] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[2025-06-16 13:45:14,665] 97 werkzeug - WARNING -  * Debugger is active!
+[2025-06-16 13:45:14,673] 97 werkzeug - INFO -  * Debugger PIN: 963-022-397
+[2025-06-16 13:45:23,963] 97 werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 13:45:23] "GET / HTTP/1.1" 200 -
+[2025-06-16 13:45:28,876] 69 root - INFO - Entered initiate_data_ingestion method of DataIngestion class
+[2025-06-16 13:45:28,877] 43 root - INFO - exporting data from mongodb
+[2025-06-16 13:45:30,108] 56 root - INFO - saving data into feature store file path :artifacts
+[2025-06-16 13:45:30,133] 73 root - INFO - got the data from mongo db
+[2025-06-16 13:45:30,133] 75 root - INFO - exited initiate_data_ingestion method from dataingestion class
+[2025-06-16 13:45:30,133] 57 root - INFO - entered initiate data transformation method in data transformation class
+[2025-06-16 13:45:30,168] 54 root - INFO - Entered the save_object method of MainUtils class
+[2025-06-16 13:45:30,168] 62 root - INFO - Exited the save_object method of MainUtils class
+[2025-06-16 13:45:30,169] 165 root - INFO - Splitting training and testing input and target feature
+[2025-06-16 13:45:30,169] 176 root - INFO - Extracting model config file path
+[2025-06-16 13:45:40,989] 223 root - INFO - Best found model on both training and testing dataset
+[2025-06-16 13:45:40,990] 225 root - INFO - Saving model at path: artifacts/model.pkl
+[2025-06-16 13:45:40,990] 54 root - INFO - Entered the save_object method of MainUtils class
+[2025-06-16 13:45:40,991] 62 root - INFO - Exited the save_object method of MainUtils class
+[2025-06-16 13:45:40,992] 97 werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 13:45:40] "GET /train HTTP/1.1" 200 -
+[2025-06-16 13:45:52,816] 97 werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 13:45:52] "GET /predict HTTP/1.1" 200 -
+[2025-06-16 13:45:52,848] 97 werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 13:45:52] "[33mGET /script.js HTTP/1.1[0m" 404 -
+[2025-06-16 13:45:52,853] 97 werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 13:45:52] "GET /static/css/style.css HTTP/1.1" 200 -
+[2025-06-16 13:46:36,919] 77 root - INFO - predictions completed
+[2025-06-16 13:46:36,920] 50 root - INFO - prediction completed. Downloading prediction file.
+[2025-06-16 13:46:36,921] 97 werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 13:46:36] "POST /predict HTTP/1.1" 200 -
+[2025-06-16 13:49:11,185] 69 root - INFO - Entered initiate_data_ingestion method of DataIngestion class
+[2025-06-16 13:49:11,186] 43 root - INFO - exporting data from mongodb
+[2025-06-16 13:49:12,412] 56 root - INFO - saving data into feature store file path :artifacts
+[2025-06-16 13:49:12,442] 73 root - INFO - got the data from mongo db
+[2025-06-16 13:49:12,442] 75 root - INFO - exited initiate_data_ingestion method from dataingestion class
+[2025-06-16 13:49:12,442] 57 root - INFO - entered initiate data transformation method in data transformation class
+[2025-06-16 13:49:12,481] 54 root - INFO - Entered the save_object method of MainUtils class
+[2025-06-16 13:49:12,482] 62 root - INFO - Exited the save_object method of MainUtils class
+[2025-06-16 13:49:12,482] 165 root - INFO - Splitting training and testing input and target feature
+[2025-06-16 13:49:12,482] 176 root - INFO - Extracting model config file path
+[2025-06-16 13:49:20,118] 223 root - INFO - Best found model on both training and testing dataset
+[2025-06-16 13:49:20,119] 225 root - INFO - Saving model at path: artifacts/model.pkl
+[2025-06-16 13:49:20,120] 54 root - INFO - Entered the save_object method of MainUtils class
+[2025-06-16 13:49:20,121] 62 root - INFO - Exited the save_object method of MainUtils class
+[2025-06-16 13:49:20,122] 97 werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 13:49:20] "GET /train HTTP/1.1" 200 -
+[2025-06-16 13:49:26,861] 97 werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 13:49:26] "GET / HTTP/1.1" 200 -
+[2025-06-16 13:51:07,574] 97 werkzeug - INFO -  * Detected change in '/Users/shaikyasin/Documents/AIDS/Projects/ML projects/1 sensor fault detection/app.py', reloading
+[2025-06-16 13:51:07,774] 97 werkzeug - INFO -  * Detected change in '/Users/shaikyasin/Documents/AIDS/Projects/ML projects/1 sensor fault detection/app.py', reloading

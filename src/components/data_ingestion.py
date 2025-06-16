@@ -2,7 +2,7 @@ import sys
 import os
 import numpy as np
 import pandas as pd
-from pymongo.mongo_client import MongoClient
+from pymongo import MongoClient
 from zipfile import Path
 from src.constants import * # get everything from constants
 from src.exception import CustomException
@@ -24,11 +24,11 @@ class DataIngestion:
     def export_collection_as_dataframe(self,collection_name,db_name):
         
         try:
-            mongo_client = mongo_client(MONGO_DB_URL)
+            mongo_client = MongoClient(MONGO_DB_URL)
             collection = mongo_client[db_name][collection_name]
             df = pd.DataFrame(list(collection.find()))
             
-            if "_id" in  df.columns.tolist:
+            if "_id" in  df.columns.tolist():
                 df = df.drop(columns=['_id'],axis=1) # remove this column
             # replce null values
             df.replace({"na":np.nan},inplace=True)
@@ -62,6 +62,8 @@ class DataIngestion:
             return feature_store_file_path
         except Exception as e:
             raise CustomException(e,sys)
+        
+        
     def initiate_data_ingestion(self)->Path:
         
         logging.info("Entered initiate_data_ingestion method of DataIngestion class")

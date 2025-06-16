@@ -1,0 +1,14 @@
+[2025-02-05 22:26:34,574] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[2025-02-05 22:26:35,232] 97 werkzeug - WARNING -  * Debugger is active!
+[2025-02-05 22:26:35,243] 97 werkzeug - INFO -  * Debugger PIN: 479-648-325
+[2025-02-05 22:26:40,504] 97 werkzeug - INFO - 127.0.0.1 - - [05/Feb/2025 22:26:40] "GET / HTTP/1.1" 200 -
+[2025-02-05 22:26:43,728] 69 root - INFO - Entered initiate_data_ingestion method of DataIngestion class
+[2025-02-05 22:26:43,728] 43 root - INFO - exporting data from mongodb
+[2025-02-05 22:26:46,178] 97 werkzeug - INFO - 127.0.0.1 - - [05/Feb/2025 22:26:46] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+[2025-02-05 22:26:46,199] 97 werkzeug - INFO - 127.0.0.1 - - [05/Feb/2025 22:26:46] "[36mGET /train?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-02-05 22:26:46,199] 97 werkzeug - INFO - 127.0.0.1 - - [05/Feb/2025 22:26:46] "[36mGET /train?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-02-05 22:26:46,212] 97 werkzeug - INFO - 127.0.0.1 - - [05/Feb/2025 22:26:46] "[36mGET /train?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-02-05 22:31:25,531] 97 werkzeug - INFO -  * Detected change in '/Users/shaikyasin/Documents/AIDS/Projects/ML projects/1 sensor fault detection/src/components/data_ingestion.py', reloading
+[2025-02-05 22:31:25,760] 97 werkzeug - INFO -  * Detected change in '/Users/shaikyasin/Documents/AIDS/Projects/ML projects/1 sensor fault detection/src/components/data_ingestion.py', reloading
+[2025-02-05 22:31:26,029] 97 werkzeug - INFO -  * Detected change in '/Users/shaikyasin/Documents/AIDS/Projects/ML projects/1 sensor fault detection/src/components/data_ingestion.py', reloading
+[2025-02-05 22:31:26,209] 97 werkzeug - INFO -  * Detected change in '/Users/shaikyasin/Documents/AIDS/Projects/ML projects/1 sensor fault detection/src/components/data_ingestion.py', reloading

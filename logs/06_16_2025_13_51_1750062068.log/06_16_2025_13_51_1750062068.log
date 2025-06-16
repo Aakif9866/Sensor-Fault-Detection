@@ -1,0 +1,25 @@
+[2025-06-16 13:51:09,161] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[2025-06-16 13:51:10,174] 97 werkzeug - WARNING -  * Debugger is active!
+[2025-06-16 13:51:10,180] 97 werkzeug - INFO -  * Debugger PIN: 963-022-397
+[2025-06-16 13:51:13,063] 97 werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 13:51:13] "GET / HTTP/1.1" 200 -
+[2025-06-16 13:51:18,171] 69 root - INFO - Entered initiate_data_ingestion method of DataIngestion class
+[2025-06-16 13:51:18,171] 43 root - INFO - exporting data from mongodb
+[2025-06-16 13:51:20,821] 56 root - INFO - saving data into feature store file path :artifacts
+[2025-06-16 13:51:20,844] 73 root - INFO - got the data from mongo db
+[2025-06-16 13:51:20,844] 75 root - INFO - exited initiate_data_ingestion method from dataingestion class
+[2025-06-16 13:51:20,844] 57 root - INFO - entered initiate data transformation method in data transformation class
+[2025-06-16 13:51:20,875] 54 root - INFO - Entered the save_object method of MainUtils class
+[2025-06-16 13:51:20,875] 62 root - INFO - Exited the save_object method of MainUtils class
+[2025-06-16 13:51:20,876] 165 root - INFO - Splitting training and testing input and target feature
+[2025-06-16 13:51:20,876] 176 root - INFO - Extracting model config file path
+[2025-06-16 13:51:31,796] 223 root - INFO - Best found model on both training and testing dataset
+[2025-06-16 13:51:31,797] 225 root - INFO - Saving model at path: artifacts/model.pkl
+[2025-06-16 13:51:31,797] 54 root - INFO - Entered the save_object method of MainUtils class
+[2025-06-16 13:51:31,798] 62 root - INFO - Exited the save_object method of MainUtils class
+[2025-06-16 13:51:31,799] 97 werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 13:51:31] "GET /train HTTP/1.1" 200 -
+[2025-06-16 13:51:37,091] 97 werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 13:51:37] "GET /predict HTTP/1.1" 200 -
+[2025-06-16 13:51:37,112] 97 werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 13:51:37] "[33mGET /script.js HTTP/1.1[0m" 404 -
+[2025-06-16 13:51:37,118] 97 werkzeug - INFO - 127.0.0.1 - - [16/Jun/2025 13:51:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2025-06-16 14:05:40,632] 97 werkzeug - INFO -  * Detected change in '/Users/shaikyasin/Documents/AIDS/Projects/ML projects/1 sensor fault detection/src/components/data_ingestion.py', reloading
+[2025-06-16 14:05:40,820] 97 werkzeug - INFO -  * Detected change in '/Users/shaikyasin/Documents/AIDS/Projects/ML projects/1 sensor fault detection/src/components/data_ingestion.py', reloading
+[2025-06-16 14:05:40,982] 97 werkzeug - INFO -  * Detected change in '/Users/shaikyasin/Documents/AIDS/Projects/ML projects/1 sensor fault detection/src/components/data_ingestion.py', reloading

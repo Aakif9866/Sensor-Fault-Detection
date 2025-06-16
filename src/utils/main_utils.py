@@ -23,6 +23,8 @@ class MainUtils:
         try:
             with open(filename, "rb") as yaml_file:
                 return yaml.safe_load(yaml_file)
+           # safe_load creates a python object for the given data
+           
 
         # in every step we are using try except 
         # to avoid error not handled

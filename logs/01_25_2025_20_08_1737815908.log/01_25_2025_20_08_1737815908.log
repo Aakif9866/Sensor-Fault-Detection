@@ -1,0 +1,9 @@
+[2025-01-25 20:08:28,711] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[2025-01-25 20:08:29,813] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5005
+ * Running on http://172.17.95.185:5005
+[2025-01-25 20:08:29,813] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2025-01-25 20:08:29,872] 97 werkzeug - INFO -  * Restarting with watchdog (fsevents)
+[2025-01-25 20:15:31,961] 97 werkzeug - INFO -  * Restarting with watchdog (fsevents)
+[2025-01-25 20:15:34,766] 97 werkzeug - INFO -  * Restarting with watchdog (fsevents)
